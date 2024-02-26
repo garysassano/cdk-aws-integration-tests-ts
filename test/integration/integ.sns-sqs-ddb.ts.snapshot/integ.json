@@ -1,0 +1,22 @@
+{
+  "version": "36.0.0",
+  "testCases": {
+    "DataFlowTest/DefaultTest": {
+      "stacks": [
+        "IntegrationTestStack"
+      ],
+      "regions": [
+        "${Token[AWS.Region.9]}"
+      ],
+      "cdkCommandOptions": {
+        "destroy": {
+          "args": {
+            "force": true
+          }
+        }
+      },
+      "assertionStack": "DataFlowTest/DefaultTest/DeployAssert",
+      "assertionStackName": "DataFlowTestDefaultTestDeployAssert0E9374E1"
+    }
+  }
+}

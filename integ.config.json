@@ -1,0 +1,8 @@
+{
+  "maxWorkers": 10,
+  "parallelRegions": ["eu-central-1"],
+  "language": "typescript",
+  "inspect-failures": true,
+  "update-on-failed": true,
+  "directory": "test"
+}
